@@ -10,14 +10,13 @@
     </welcome-file-list>
     
   <servlet>
-    <servlet-name>hello</servlet-name>
-    <servlet-class>com.example.HelloServlet</servlet-class>
+    <servlet-name>jx</servlet-name>
+    <servlet-class>org.sapid.JXServlet</servlet-class>
   </servlet>
 
   <servlet-mapping>
-    <servlet-name>hello</servlet-name>
-    <url-pattern>/hello</url-pattern>
+    <servlet-name>jx</servlet-name>
+    <url-pattern>/jx</url-pattern>
   </servlet-mapping>
-
 
 </web-app>
