@@ -14,9 +14,19 @@
     <servlet-class>org.sapid.JXServlet</servlet-class>
   </servlet>
 
+  <servlet>
+    <servlet-name>jsx</servlet-name>
+    <servlet-class>org.sapid.JSXServlet</servlet-class>
+  </servlet>
+
   <servlet-mapping>
     <servlet-name>jx</servlet-name>
     <url-pattern>/jx</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>jsx</servlet-name>
+    <url-pattern>/jsx</url-pattern>
   </servlet-mapping>
 
 </web-app>
