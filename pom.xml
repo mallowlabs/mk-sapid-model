@@ -15,9 +15,9 @@
 
 	<repositories>
 		<repository>
-			<id>www.sapid.org</id>
-			<name>Sapid Maven2 Repository</name>
-			<url>http://www.sapid.org/maven2/</url>
+			<id>sapid-beta</id>
+			<name>Sapid Beta Repository</name>
+			<url>http://www.hpcss.is.ritsumei.ac.jp/Member/kuwabara/sapid-beta/mvnrepo/</url>
 		</repository>
 	</repositories>
 
@@ -48,8 +48,8 @@
 
 		<dependency>
 			<groupId>org.sapid</groupId>
-			<artifactId>sapid</artifactId>
-			<version>6.97.3.322</version>
+			<artifactId>sapid-core</artifactId>
+			<version>6.102.535</version>
 		</dependency>
 	</dependencies>
 
