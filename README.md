@@ -1,6 +1,8 @@
-# Embedded Jetty template application
+# Sapid as a Service
 
-This is a template for a web application that uses embedded Jetty. The sample code consists of a JSP (this page) and a simple servlet.
+This is a service that parses your codes with [Sapid](http://www.sapid.org/).
+You can get AST (Abstract Syntax Tree) of your codes.
+This supports Java (7) and JavaScript (EcmaScript) now.
 
 ## Running the application locally
 
@@ -10,5 +12,5 @@ First build with:
 
 Then run it with:
 
-    $java -cp target/classes:target/dependency/* com.example.Main
+    $java -cp "target/classes:target/dependency/*" com.example.Main
 
